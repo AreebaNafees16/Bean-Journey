@@ -589,7 +589,6 @@ body {
 }
 
 
-
 /* Footer Section */
 .footer {
     background-color: #4b3621;
@@ -666,6 +665,14 @@ body {
     .hamburger {
         display: block;
     }
+
+    .navbar .logo {
+        font-size: 1.2rem;
+    }
+
+    .navbar .logo1 {
+        font-size: 1.2rem;
+    }
 }
 
 /* home section */
@@ -723,7 +730,6 @@ body {
     }
     .about-text p {
         font-size: 0.95rem;
-        padding-bottom: 0.1rem;
     }
 }
 
@@ -732,6 +738,7 @@ body {
 @media (max-width: 1024px) {
     .place h1 {
         font-size: 2rem; /* Slightly smaller heading on tablet */
+        margin-top: 6rem;
     }
 
     .place p {
@@ -844,33 +851,6 @@ body {
     }
     .video-section p {
         font-size: 1rem;
-    }
-}
-
-
-/* Service Section */
-/* Responsive Design */
-@media (max-width: 992px) {
-    .services-grid {
-        grid-template-columns: repeat(2, 1fr);
-    }
-}
-
-@media (max-width: 600px) {
-    .services-grid {
-        grid-template-columns: 1fr;
-    }
-    .services h1 {
-        font-size: 2rem;
-    }
-    .services p {
-        font-size: 1rem;
-    }
-    .service-card h2 {
-        font-size: 1.3rem;
-    }
-    .service-card p {
-        font-size: 0.95rem;
     }
 }
 
