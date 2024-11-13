@@ -40,7 +40,7 @@ body {
 }
 .navbar ul {
     display: flex;
-    gap: 2rem;
+    gap: 1.5rem;
     list-style: none;
 }
 .navbar ul li a {
@@ -390,6 +390,7 @@ body {
     font-size: 2.5rem;
     color: #4b3621;
     margin-bottom: 1rem;
+    margin-top: 3rem;
 }
 
 .video-section p {
@@ -649,12 +650,12 @@ body {
         flex-direction: column;
         position: absolute;
         top: 60px;
-        gap: 3rem;
+        gap: 2.8rem;
         right: 0;
-        font-size: 1rem;
+        font-size: 1.3rem;
         background-color: #4b3621;
         width: 200px;
-        height: 400px;
+        height: 500px;
         border-radius: 10px;
         padding: 2rem;
         display: none;
@@ -707,6 +708,9 @@ body {
 /* about section */
 /* Responsive Design */
 @media (max-width: 768px) {
+    .about {
+        height: 120vh;
+    }
     .about-content {
         flex-direction: column;
         gap: 2rem;
